@@ -14,4 +14,18 @@
         app:defaultNavHost="true"
         app:navGraph="@navigation/nav_home" />
 
+    <TextView
+        android:id="@+id/no_internet_warning"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="bottom"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:text="@string/internet_unavailable"
+        android:textAllCaps="true"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="18sp"
+        android:visibility="gone"
+        tools:visibility="visible" />
+
 </FrameLayout>

@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Core</string>
+    <string name="internet_unavailable">Internet unavailable</string>
 </resources>
